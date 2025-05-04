@@ -1,5 +1,4 @@
-# app.py
-
+# imports
 import streamlit as st
 from auth import hash_password, verify_password
 from db import create_db, add_user, get_user_by_username
